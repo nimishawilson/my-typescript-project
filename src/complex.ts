@@ -6,7 +6,7 @@ const factorial = (n: number): number => {
 };
 
 class ExampleService {
-  @LogTime
+  @LogTime // example of method decorator
   complexFunction(num: number): void {
     console.log(`Calculating factorial of ${num}...`);
     const result = factorial(num);
